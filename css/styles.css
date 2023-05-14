@@ -11,6 +11,7 @@
   --accent-color: #4d5ae5;
   --secondary-accent-color: #e7e9fc;
   --hover-state-color: #404bbf;
+  --icons-color: #8e8f99;
 }
 
 h1,
@@ -326,6 +327,7 @@ button {
 .icons-section-four-list-item-link:hover,
 .icons-section-four-list-item-link:focus {
   background-color: var(--hover-state-color);
+  cursor: pointer;
 }
 .icons-section-four-svg {
   fill: var(--background-color-theme-light);
@@ -349,7 +351,52 @@ button {
   /* / The forth section */
 }
 
+/* THE FIFTH SECTION */
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-section-titile {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--primary-text-color-theme-light);
+  margin-bottom: 72px;
+  text-align: center;
+}
+.customers-section-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.customers-section-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-section-list-item-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icons-color);
+}
+.customers-section-list-item-link:hover,
+.customers-section-list-item-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-section-list-svg {
+  fill: currentColor;
+}
+
 /* footer */
+.footer-box {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 .footer-container {
   background-color: var(--background-color-theme-dark);
   padding-top: 100px;
@@ -362,6 +409,32 @@ button {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-dark);
   max-width: 264px;
+}
+.footer-container-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-dark);
+  margin-bottom: 16px;
+}
+.footer-container-list-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-container-list-item-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container-list-item-link:hover,
+.footer-container-list-item-link:focus {
+  background-color: #31d0aa;
+  background-color: #31d0aa;
 }
 
 /* PAGE PORTFOLIO  */
