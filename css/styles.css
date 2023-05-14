@@ -324,13 +324,12 @@ button {
   align-items: center;
   justify-content: center;
 }
-.icons-section-four-list-item-link:hover {
+.icons-section-four-list-item-link:hover,
+.icons-section-four-list-item-link:focus {
   background-color: var(--hover-state-color);
   cursor: pointer;
 }
-.icons-section-four-list-item-link:focus {
-  background-color: #404bbf;
-}
+
 .icons-section-four-svg {
   fill: var(--background-color-theme-light);
 }
@@ -453,7 +452,7 @@ button {
   justify-content: center;
 }
 .footer-link:hover,
-.footer-link:hover {
+.footer-link:focus {
   background-color: #31d0aa;
   background-color: #31d0aa;
 }
