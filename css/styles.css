@@ -156,9 +156,16 @@ button {
 /* HERO */
 
 .hero-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-bg.jpg);
+  background-size: cover;
   background-color: var(--background-color-theme-dark);
   padding: 188px 0;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
