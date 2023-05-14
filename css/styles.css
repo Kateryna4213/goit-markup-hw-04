@@ -392,15 +392,25 @@ button {
 }
 
 /* footer */
-.footer-box {
+.footer-container-box {
   display: flex;
-  align-items: baseline;
-  margin-right: 120px;
 }
 .footer-container {
   background-color: var(--background-color-theme-dark);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer-links-list-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-box-logo {
+  margin-right: 120px;
 }
 
 .footer-container-text {
@@ -418,11 +428,19 @@ button {
   color: var(--primary-text-color-theme-dark);
   margin-bottom: 16px;
 }
-.footer-container-list-item {
-  width: 40px;
-  height: 40px;
+.footer-box-links {
+  display: flex;
+  flex-direction: column;
 }
-.footer-container-list-item-link {
+.footer-box-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-dark);
+  margin-bottom: 16px;
+}
+.footer-link {
   width: 100%;
   height: 100%;
   background-color: var(--accent-color);
@@ -431,12 +449,6 @@ button {
   align-items: center;
   justify-content: center;
 }
-.footer-container-list-item-link:hover,
-.footer-container-list-item-link:focus {
-  background-color: #31d0aa;
-  background-color: #31d0aa;
-}
-
 /* PAGE PORTFOLIO  */
 
 .offers-container {
