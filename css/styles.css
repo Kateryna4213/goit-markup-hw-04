@@ -324,10 +324,12 @@ button {
   align-items: center;
   justify-content: center;
 }
-.icons-section-four-list-item-link:hover,
-.icons-section-four-list-item-link:focus {
+.icons-section-four-list-item-link:hover {
   background-color: var(--hover-state-color);
   cursor: pointer;
+}
+.icons-section-four-list-item-link:focus {
+  background-color: #404bbf;
 }
 .icons-section-four-svg {
   fill: var(--background-color-theme-light);
@@ -394,6 +396,7 @@ button {
 /* footer */
 .footer-container-box {
   display: flex;
+  align-items: baseline;
 }
 .footer-container {
   background-color: var(--background-color-theme-dark);
@@ -449,7 +452,24 @@ button {
   align-items: center;
   justify-content: center;
 }
+.footer-link:hover,
+.footer-link:hover {
+  background-color: #31d0aa;
+  background-color: #31d0aa;
+}
+.icons-footer-svg {
+  fill: var(--background-color-theme-light);
+}
 /* PAGE PORTFOLIO  */
+
+.offers-list-item-link {
+  display: block;
+}
+.offers-list-item-link:hover,
+.offers-list-item-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .offers-container {
   padding-top: 96px;
@@ -480,9 +500,9 @@ button {
 .offers-btn:hover,
 .offers-btn:focus {
   background: var(--hover-state-color);
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px; */
+  border-radius: 4px;
   color: var(--primary-text-color-theme-dark);
   border: 1px solid transparent;
 }
