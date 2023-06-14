@@ -376,7 +376,7 @@ button {
 }
 .icons-section-four-list-item-link:hover,
 .icons-section-four-list-item-link:focus {
-  background-color: var(--hover-state-color);
+  background-color: #404bbf;
   cursor: pointer;
 }
 
@@ -409,10 +409,11 @@ button {
 }
 .customers-section-titile {
   font-size: 36px;
-  line-height: 1.1;
+
   color: var(--primary-text-color-theme-light);
   margin-bottom: 72px;
   text-align: center;
+  line-height: 1.11;
 }
 .customers-section-list {
   display: flex;
@@ -426,6 +427,9 @@ button {
 .customers-section-list-item-link {
   width: 100%;
   height: 100%;
+  border-color: #404bbf;
+  color: #404bbf;
+
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
